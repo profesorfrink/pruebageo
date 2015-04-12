@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  a#btnAgregar(href="#") Agregar marcador
+  label Latitud
+  input#txtLatitud
+  label Longitud
+  input#txtLongitud
+  div#map_canvas(style="width:600px; height:400px")
